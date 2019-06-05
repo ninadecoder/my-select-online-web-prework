@@ -9,7 +9,11 @@ def my_select(arr)
     if yield(ele) == true
       arr2 << ele
     end
+    
     count += 1
+    
   end
+  
   return arr2
+  
 end
